@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="AngularModelStoreContainer" CdmEntityContainer="AngularEntities">
+    <EntitySetMapping Name="Employees">
+      <EntityTypeMapping TypeName="AngularModel.Employee">
+        <MappingFragment StoreEntitySet="Employee">
+          <ScalarProperty Name="emp_id" ColumnName="emp_id" />
+          <ScalarProperty Name="emp_name" ColumnName="emp_name" />
+          <ScalarProperty Name="emp_job" ColumnName="emp_job" />
+          <ScalarProperty Name="emp_age" ColumnName="emp_age" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="registations">
+      <EntityTypeMapping TypeName="AngularModel.registation">
+        <MappingFragment StoreEntitySet="registation">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="city" ColumnName="city" />
+          <ScalarProperty Name="gender" ColumnName="gender" />
+          <ScalarProperty Name="isactive" ColumnName="isactive" />
+          <ScalarProperty Name="country" ColumnName="country" />
+          <ScalarProperty Name="age" ColumnName="age" />
+          <ScalarProperty Name="Role" ColumnName="Role" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
